@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/lin" android:background="#336699">
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TopImage" android:focusableInTouchMode="false"
+            android:src="@drawable/oncidium" android:cropToPadding="false" android:adjustViewBounds="true"/>
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FlowerList"
+            android:layout_gravity="center"
+            android:background="#000033"
+
+            android:divider="#336699" android:dividerHeight="2dp"/>
+</LinearLayout>
